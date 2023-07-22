@@ -10,7 +10,6 @@ const Budget = () =>{
 
         if(value > 20000) {
             alert("The value cannot exceed remaining funds  £ 20000");
-            setCost("");
             return;
         }
 
@@ -21,7 +20,6 @@ const Budget = () =>{
 
     if(value < totalExpenses) {
         alert("You cannot reduce the budget value less than the spending");
-        setCost("");
         return;
     }
         dispatch({
