@@ -1,0 +1,13 @@
+.changeCurrency{
+    background-color: lightgreen;
+    color: white;
+}
+
+.changeCurrency option{
+    color:black;
+}
+
+.changeCurrency option:hover{
+    background-color: white !important;
+    color:black;
+}
