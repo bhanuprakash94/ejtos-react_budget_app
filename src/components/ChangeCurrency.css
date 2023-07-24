@@ -16,6 +16,8 @@
 .custom-dropdown {
     position: relative;
     cursor: pointer;
+    width: 212px;
+
   }
   
   ul.currency_ul {
@@ -29,7 +31,7 @@
     z-index: 1;
     background-color: lightgreen;
     border-radius: 0.25em;
-    width: 297px;
+    width: 198px;
     margin-left: -13px;
     margin-top: 22px
   }
@@ -42,7 +44,3 @@
   ul.currency_ul li:hover {
     background-color: #f2f2f2;
   }
-
-  
-  
-  
